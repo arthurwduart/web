@@ -2,30 +2,618 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Automatically generated ECMWF IFS synoptic forecast maps.">
 <title>ECMWF IFS Synoptic Forecast</title>
+
 <style>
-body{margin:0;background:#f4f4f4;color:#222;font-family:Arial,sans-serif}
-header{padding:22px 5%;background:#fff;border-bottom:3px solid #a50000}
-header h1{margin:0 0 7px;font-size:25px}
-header p{margin:3px 0}
-main{display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:18px;padding:20px 3%}
-article{background:#fff;padding:12px;box-shadow:0 1px 5px #bbb}
-article h2{margin:0 0 10px;font-size:16px}
-img{display:block;width:100%;height:auto}
-footer{padding:18px;text-align:center;background:#fff;border-top:1px solid #ccc}
-@media(max-width:600px){main{grid-template-columns:1fr;padding:10px}}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f3f4f6;
+    color: #202124;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 22px 4%;
+    background: white;
+    border-bottom: 3px solid #a50000;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.12);
+}
+
+header h1 {
+    margin: 0 0 8px;
+    font-size: 26px;
+}
+
+header p {
+    margin: 4px 0;
+    font-size: 15px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 20px;
+    padding: 22px 3%;
+}
+
+.card {
+    overflow: hidden;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.18);
+}
+
+.card h2 {
+    margin: 0;
+    padding: 12px 14px;
+    border-bottom: 1px solid #dddddd;
+    font-size: 16px;
+}
+
+.card a {
+    display: block;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: opacity 0.2s ease;
+}
+
+.card img:hover {
+    opacity: 0.92;
+}
+
+footer {
+    padding: 18px;
+    background: white;
+    border-top: 1px solid #cccccc;
+    text-align: center;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 18px;
+    }
+
+    header h1 {
+        font-size: 21px;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+        padding: 12px;
+    }
+}
 </style>
 </head>
+
 <body>
 <header>
-<h1>ECMWF IFS Synoptic Forecast</h1>
-<p><b>Forecast cycle:</b> 2026072318 UTC</p>
-<p><b>Last website update:</b> 2026-07-24 01:39 UTC</p>
+    <h1>ECMWF IFS Synoptic Forecast</h1>
+    <p><strong>Forecast cycle:</strong> 2026072318 UTC</p>
+    <p><strong>Last website update:</strong> 2026-07-24 01:44 UTC</p>
+    <p><strong>Forecast range:</strong> +006 to +072 hours</p>
 </header>
+
 <main>
-<article><h2>Fig01 Mslp Thickness Precipitation</h2><a href="images/fig01_mslp_thickness_precipitation/fig01_20260724_0000_f006.png" target="_blank"><img src="images/fig01_mslp_thickness_precipitation/fig01_20260724_0000_f006.png" loading="lazy"></a></article><article><h2>Fig01 Mslp Thickness Precipitation</h2><a href="images/fig01_mslp_thickness_precipitation/fig01_20260724_0600_f012.png" target="_blank"><img src="images/fig01_mslp_thickness_precipitation/fig01_20260724_0600_f012.png" loading="lazy"></a></article><article><h2>Fig01 Mslp Thickness Precipitation</h2><a href="images/fig01_mslp_thickness_precipitation/fig01_20260724_1200_f018.png" target="_blank"><img src="images/fig01_mslp_thickness_precipitation/fig01_20260724_1200_f018.png" loading="lazy"></a></article><article><h2>Fig01 Mslp Thickness Precipitation</h2><a href="images/fig01_mslp_thickness_precipitation/fig01_20260724_1800_f024.png" target="_blank"><img src="images/fig01_mslp_thickness_precipitation/fig01_20260724_1800_f024.png" loading="lazy"></a></article><article><h2>Fig01 Mslp Thickness Precipitation</h2><a href="images/fig01_mslp_thickness_precipitation/fig01_20260725_0000_f030.png" target="_blank"><img src="images/fig01_mslp_thickness_precipitation/fig01_20260725_0000_f030.png" loading="lazy"></a></article><article><h2>Fig01 Mslp Thickness Precipitation</h2><a href="images/fig01_mslp_thickness_precipitation/fig01_20260725_0600_f036.png" target="_blank"><img src="images/fig01_mslp_thickness_precipitation/fig01_20260725_0600_f036.png" loading="lazy"></a></article><article><h2>Fig01 Mslp Thickness Precipitation</h2><a href="images/fig01_mslp_thickness_precipitation/fig01_20260725_1200_f042.png" target="_blank"><img src="images/fig01_mslp_thickness_precipitation/fig01_20260725_1200_f042.png" loading="lazy"></a></article><article><h2>Fig01 Mslp Thickness Precipitation</h2><a href="images/fig01_mslp_thickness_precipitation/fig01_20260725_1800_f048.png" target="_blank"><img src="images/fig01_mslp_thickness_precipitation/fig01_20260725_1800_f048.png" loading="lazy"></a></article><article><h2>Fig01 Mslp Thickness Precipitation</h2><a href="images/fig01_mslp_thickness_precipitation/fig01_20260726_0000_f054.png" target="_blank"><img src="images/fig01_mslp_thickness_precipitation/fig01_20260726_0000_f054.png" loading="lazy"></a></article><article><h2>Fig01 Mslp Thickness Precipitation</h2><a href="images/fig01_mslp_thickness_precipitation/fig01_20260726_0600_f060.png" target="_blank"><img src="images/fig01_mslp_thickness_precipitation/fig01_20260726_0600_f060.png" loading="lazy"></a></article><article><h2>Fig01 Mslp Thickness Precipitation</h2><a href="images/fig01_mslp_thickness_precipitation/fig01_20260726_1200_f066.png" target="_blank"><img src="images/fig01_mslp_thickness_precipitation/fig01_20260726_1200_f066.png" loading="lazy"></a></article><article><h2>Fig01 Mslp Thickness Precipitation</h2><a href="images/fig01_mslp_thickness_precipitation/fig01_20260726_1800_f072.png" target="_blank"><img src="images/fig01_mslp_thickness_precipitation/fig01_20260726_1800_f072.png" loading="lazy"></a></article><article><h2>Fig02 Total Cloud Cover</h2><a href="images/fig02_total_cloud_cover/fig02_20260724_0000_f006.png" target="_blank"><img src="images/fig02_total_cloud_cover/fig02_20260724_0000_f006.png" loading="lazy"></a></article><article><h2>Fig02 Total Cloud Cover</h2><a href="images/fig02_total_cloud_cover/fig02_20260724_0600_f012.png" target="_blank"><img src="images/fig02_total_cloud_cover/fig02_20260724_0600_f012.png" loading="lazy"></a></article><article><h2>Fig02 Total Cloud Cover</h2><a href="images/fig02_total_cloud_cover/fig02_20260724_1200_f018.png" target="_blank"><img src="images/fig02_total_cloud_cover/fig02_20260724_1200_f018.png" loading="lazy"></a></article><article><h2>Fig02 Total Cloud Cover</h2><a href="images/fig02_total_cloud_cover/fig02_20260724_1800_f024.png" target="_blank"><img src="images/fig02_total_cloud_cover/fig02_20260724_1800_f024.png" loading="lazy"></a></article><article><h2>Fig02 Total Cloud Cover</h2><a href="images/fig02_total_cloud_cover/fig02_20260725_0000_f030.png" target="_blank"><img src="images/fig02_total_cloud_cover/fig02_20260725_0000_f030.png" loading="lazy"></a></article><article><h2>Fig02 Total Cloud Cover</h2><a href="images/fig02_total_cloud_cover/fig02_20260725_0600_f036.png" target="_blank"><img src="images/fig02_total_cloud_cover/fig02_20260725_0600_f036.png" loading="lazy"></a></article><article><h2>Fig02 Total Cloud Cover</h2><a href="images/fig02_total_cloud_cover/fig02_20260725_1200_f042.png" target="_blank"><img src="images/fig02_total_cloud_cover/fig02_20260725_1200_f042.png" loading="lazy"></a></article><article><h2>Fig02 Total Cloud Cover</h2><a href="images/fig02_total_cloud_cover/fig02_20260725_1800_f048.png" target="_blank"><img src="images/fig02_total_cloud_cover/fig02_20260725_1800_f048.png" loading="lazy"></a></article><article><h2>Fig02 Total Cloud Cover</h2><a href="images/fig02_total_cloud_cover/fig02_20260726_0000_f054.png" target="_blank"><img src="images/fig02_total_cloud_cover/fig02_20260726_0000_f054.png" loading="lazy"></a></article><article><h2>Fig02 Total Cloud Cover</h2><a href="images/fig02_total_cloud_cover/fig02_20260726_0600_f060.png" target="_blank"><img src="images/fig02_total_cloud_cover/fig02_20260726_0600_f060.png" loading="lazy"></a></article><article><h2>Fig02 Total Cloud Cover</h2><a href="images/fig02_total_cloud_cover/fig02_20260726_1200_f066.png" target="_blank"><img src="images/fig02_total_cloud_cover/fig02_20260726_1200_f066.png" loading="lazy"></a></article><article><h2>Fig02 Total Cloud Cover</h2><a href="images/fig02_total_cloud_cover/fig02_20260726_1800_f072.png" target="_blank"><img src="images/fig02_total_cloud_cover/fig02_20260726_1800_f072.png" loading="lazy"></a></article><article><h2>Fig03 Geopotential Wind 850</h2><a href="images/fig03_geopotential_wind_850/fig03_20260724_0000_f006.png" target="_blank"><img src="images/fig03_geopotential_wind_850/fig03_20260724_0000_f006.png" loading="lazy"></a></article><article><h2>Fig03 Geopotential Wind 850</h2><a href="images/fig03_geopotential_wind_850/fig03_20260724_0600_f012.png" target="_blank"><img src="images/fig03_geopotential_wind_850/fig03_20260724_0600_f012.png" loading="lazy"></a></article><article><h2>Fig03 Geopotential Wind 850</h2><a href="images/fig03_geopotential_wind_850/fig03_20260724_1200_f018.png" target="_blank"><img src="images/fig03_geopotential_wind_850/fig03_20260724_1200_f018.png" loading="lazy"></a></article><article><h2>Fig03 Geopotential Wind 850</h2><a href="images/fig03_geopotential_wind_850/fig03_20260724_1800_f024.png" target="_blank"><img src="images/fig03_geopotential_wind_850/fig03_20260724_1800_f024.png" loading="lazy"></a></article><article><h2>Fig03 Geopotential Wind 850</h2><a href="images/fig03_geopotential_wind_850/fig03_20260725_0000_f030.png" target="_blank"><img src="images/fig03_geopotential_wind_850/fig03_20260725_0000_f030.png" loading="lazy"></a></article><article><h2>Fig03 Geopotential Wind 850</h2><a href="images/fig03_geopotential_wind_850/fig03_20260725_0600_f036.png" target="_blank"><img src="images/fig03_geopotential_wind_850/fig03_20260725_0600_f036.png" loading="lazy"></a></article><article><h2>Fig03 Geopotential Wind 850</h2><a href="images/fig03_geopotential_wind_850/fig03_20260725_1200_f042.png" target="_blank"><img src="images/fig03_geopotential_wind_850/fig03_20260725_1200_f042.png" loading="lazy"></a></article><article><h2>Fig03 Geopotential Wind 850</h2><a href="images/fig03_geopotential_wind_850/fig03_20260725_1800_f048.png" target="_blank"><img src="images/fig03_geopotential_wind_850/fig03_20260725_1800_f048.png" loading="lazy"></a></article><article><h2>Fig03 Geopotential Wind 850</h2><a href="images/fig03_geopotential_wind_850/fig03_20260726_0000_f054.png" target="_blank"><img src="images/fig03_geopotential_wind_850/fig03_20260726_0000_f054.png" loading="lazy"></a></article><article><h2>Fig03 Geopotential Wind 850</h2><a href="images/fig03_geopotential_wind_850/fig03_20260726_0600_f060.png" target="_blank"><img src="images/fig03_geopotential_wind_850/fig03_20260726_0600_f060.png" loading="lazy"></a></article><article><h2>Fig03 Geopotential Wind 850</h2><a href="images/fig03_geopotential_wind_850/fig03_20260726_1200_f066.png" target="_blank"><img src="images/fig03_geopotential_wind_850/fig03_20260726_1200_f066.png" loading="lazy"></a></article><article><h2>Fig03 Geopotential Wind 850</h2><a href="images/fig03_geopotential_wind_850/fig03_20260726_1800_f072.png" target="_blank"><img src="images/fig03_geopotential_wind_850/fig03_20260726_1800_f072.png" loading="lazy"></a></article><article><h2>Fig04 Near Surface Fields</h2><a href="images/fig04_near_surface_fields/fig04_20260724_0000_f006.png" target="_blank"><img src="images/fig04_near_surface_fields/fig04_20260724_0000_f006.png" loading="lazy"></a></article><article><h2>Fig04 Near Surface Fields</h2><a href="images/fig04_near_surface_fields/fig04_20260724_0600_f012.png" target="_blank"><img src="images/fig04_near_surface_fields/fig04_20260724_0600_f012.png" loading="lazy"></a></article><article><h2>Fig04 Near Surface Fields</h2><a href="images/fig04_near_surface_fields/fig04_20260724_1200_f018.png" target="_blank"><img src="images/fig04_near_surface_fields/fig04_20260724_1200_f018.png" loading="lazy"></a></article><article><h2>Fig04 Near Surface Fields</h2><a href="images/fig04_near_surface_fields/fig04_20260724_1800_f024.png" target="_blank"><img src="images/fig04_near_surface_fields/fig04_20260724_1800_f024.png" loading="lazy"></a></article><article><h2>Fig04 Near Surface Fields</h2><a href="images/fig04_near_surface_fields/fig04_20260725_0000_f030.png" target="_blank"><img src="images/fig04_near_surface_fields/fig04_20260725_0000_f030.png" loading="lazy"></a></article><article><h2>Fig04 Near Surface Fields</h2><a href="images/fig04_near_surface_fields/fig04_20260725_0600_f036.png" target="_blank"><img src="images/fig04_near_surface_fields/fig04_20260725_0600_f036.png" loading="lazy"></a></article><article><h2>Fig04 Near Surface Fields</h2><a href="images/fig04_near_surface_fields/fig04_20260725_1200_f042.png" target="_blank"><img src="images/fig04_near_surface_fields/fig04_20260725_1200_f042.png" loading="lazy"></a></article><article><h2>Fig04 Near Surface Fields</h2><a href="images/fig04_near_surface_fields/fig04_20260725_1800_f048.png" target="_blank"><img src="images/fig04_near_surface_fields/fig04_20260725_1800_f048.png" loading="lazy"></a></article><article><h2>Fig04 Near Surface Fields</h2><a href="images/fig04_near_surface_fields/fig04_20260726_0000_f054.png" target="_blank"><img src="images/fig04_near_surface_fields/fig04_20260726_0000_f054.png" loading="lazy"></a></article><article><h2>Fig04 Near Surface Fields</h2><a href="images/fig04_near_surface_fields/fig04_20260726_0600_f060.png" target="_blank"><img src="images/fig04_near_surface_fields/fig04_20260726_0600_f060.png" loading="lazy"></a></article><article><h2>Fig04 Near Surface Fields</h2><a href="images/fig04_near_surface_fields/fig04_20260726_1200_f066.png" target="_blank"><img src="images/fig04_near_surface_fields/fig04_20260726_1200_f066.png" loading="lazy"></a></article><article><h2>Fig04 Near Surface Fields</h2><a href="images/fig04_near_surface_fields/fig04_20260726_1800_f072.png" target="_blank"><img src="images/fig04_near_surface_fields/fig04_20260726_1800_f072.png" loading="lazy"></a></article><article><h2>Fig05 Thetae Geopotential Advection</h2><a href="images/fig05_thetae_geopotential_advection/fig05_20260724_0000_f006.png" target="_blank"><img src="images/fig05_thetae_geopotential_advection/fig05_20260724_0000_f006.png" loading="lazy"></a></article><article><h2>Fig05 Thetae Geopotential Advection</h2><a href="images/fig05_thetae_geopotential_advection/fig05_20260724_0600_f012.png" target="_blank"><img src="images/fig05_thetae_geopotential_advection/fig05_20260724_0600_f012.png" loading="lazy"></a></article><article><h2>Fig05 Thetae Geopotential Advection</h2><a href="images/fig05_thetae_geopotential_advection/fig05_20260724_1200_f018.png" target="_blank"><img src="images/fig05_thetae_geopotential_advection/fig05_20260724_1200_f018.png" loading="lazy"></a></article><article><h2>Fig05 Thetae Geopotential Advection</h2><a href="images/fig05_thetae_geopotential_advection/fig05_20260724_1800_f024.png" target="_blank"><img src="images/fig05_thetae_geopotential_advection/fig05_20260724_1800_f024.png" loading="lazy"></a></article><article><h2>Fig05 Thetae Geopotential Advection</h2><a href="images/fig05_thetae_geopotential_advection/fig05_20260725_0000_f030.png" target="_blank"><img src="images/fig05_thetae_geopotential_advection/fig05_20260725_0000_f030.png" loading="lazy"></a></article><article><h2>Fig05 Thetae Geopotential Advection</h2><a href="images/fig05_thetae_geopotential_advection/fig05_20260725_0600_f036.png" target="_blank"><img src="images/fig05_thetae_geopotential_advection/fig05_20260725_0600_f036.png" loading="lazy"></a></article><article><h2>Fig05 Thetae Geopotential Advection</h2><a href="images/fig05_thetae_geopotential_advection/fig05_20260725_1200_f042.png" target="_blank"><img src="images/fig05_thetae_geopotential_advection/fig05_20260725_1200_f042.png" loading="lazy"></a></article><article><h2>Fig05 Thetae Geopotential Advection</h2><a href="images/fig05_thetae_geopotential_advection/fig05_20260725_1800_f048.png" target="_blank"><img src="images/fig05_thetae_geopotential_advection/fig05_20260725_1800_f048.png" loading="lazy"></a></article><article><h2>Fig05 Thetae Geopotential Advection</h2><a href="images/fig05_thetae_geopotential_advection/fig05_20260726_0000_f054.png" target="_blank"><img src="images/fig05_thetae_geopotential_advection/fig05_20260726_0000_f054.png" loading="lazy"></a></article><article><h2>Fig05 Thetae Geopotential Advection</h2><a href="images/fig05_thetae_geopotential_advection/fig05_20260726_0600_f060.png" target="_blank"><img src="images/fig05_thetae_geopotential_advection/fig05_20260726_0600_f060.png" loading="lazy"></a></article><article><h2>Fig05 Thetae Geopotential Advection</h2><a href="images/fig05_thetae_geopotential_advection/fig05_20260726_1200_f066.png" target="_blank"><img src="images/fig05_thetae_geopotential_advection/fig05_20260726_1200_f066.png" loading="lazy"></a></article><article><h2>Fig05 Thetae Geopotential Advection</h2><a href="images/fig05_thetae_geopotential_advection/fig05_20260726_1800_f072.png" target="_blank"><img src="images/fig05_thetae_geopotential_advection/fig05_20260726_1800_f072.png" loading="lazy"></a></article><article><h2>Fig06 Mucape Cin Mslp</h2><a href="images/fig06_mucape_cin_mslp/fig06_20260724_0000_f006.png" target="_blank"><img src="images/fig06_mucape_cin_mslp/fig06_20260724_0000_f006.png" loading="lazy"></a></article><article><h2>Fig06 Mucape Cin Mslp</h2><a href="images/fig06_mucape_cin_mslp/fig06_20260724_0600_f012.png" target="_blank"><img src="images/fig06_mucape_cin_mslp/fig06_20260724_0600_f012.png" loading="lazy"></a></article><article><h2>Fig06 Mucape Cin Mslp</h2><a href="images/fig06_mucape_cin_mslp/fig06_20260724_1200_f018.png" target="_blank"><img src="images/fig06_mucape_cin_mslp/fig06_20260724_1200_f018.png" loading="lazy"></a></article><article><h2>Fig06 Mucape Cin Mslp</h2><a href="images/fig06_mucape_cin_mslp/fig06_20260724_1800_f024.png" target="_blank"><img src="images/fig06_mucape_cin_mslp/fig06_20260724_1800_f024.png" loading="lazy"></a></article><article><h2>Fig06 Mucape Cin Mslp</h2><a href="images/fig06_mucape_cin_mslp/fig06_20260725_0000_f030.png" target="_blank"><img src="images/fig06_mucape_cin_mslp/fig06_20260725_0000_f030.png" loading="lazy"></a></article><article><h2>Fig06 Mucape Cin Mslp</h2><a href="images/fig06_mucape_cin_mslp/fig06_20260725_0600_f036.png" target="_blank"><img src="images/fig06_mucape_cin_mslp/fig06_20260725_0600_f036.png" loading="lazy"></a></article><article><h2>Fig06 Mucape Cin Mslp</h2><a href="images/fig06_mucape_cin_mslp/fig06_20260725_1200_f042.png" target="_blank"><img src="images/fig06_mucape_cin_mslp/fig06_20260725_1200_f042.png" loading="lazy"></a></article><article><h2>Fig06 Mucape Cin Mslp</h2><a href="images/fig06_mucape_cin_mslp/fig06_20260725_1800_f048.png" target="_blank"><img src="images/fig06_mucape_cin_mslp/fig06_20260725_1800_f048.png" loading="lazy"></a></article><article><h2>Fig06 Mucape Cin Mslp</h2><a href="images/fig06_mucape_cin_mslp/fig06_20260726_0000_f054.png" target="_blank"><img src="images/fig06_mucape_cin_mslp/fig06_20260726_0000_f054.png" loading="lazy"></a></article><article><h2>Fig06 Mucape Cin Mslp</h2><a href="images/fig06_mucape_cin_mslp/fig06_20260726_0600_f060.png" target="_blank"><img src="images/fig06_mucape_cin_mslp/fig06_20260726_0600_f060.png" loading="lazy"></a></article><article><h2>Fig06 Mucape Cin Mslp</h2><a href="images/fig06_mucape_cin_mslp/fig06_20260726_1200_f066.png" target="_blank"><img src="images/fig06_mucape_cin_mslp/fig06_20260726_1200_f066.png" loading="lazy"></a></article><article><h2>Fig06 Mucape Cin Mslp</h2><a href="images/fig06_mucape_cin_mslp/fig06_20260726_1800_f072.png" target="_blank"><img src="images/fig06_mucape_cin_mslp/fig06_20260726_1800_f072.png" loading="lazy"></a></article>
+
+            <article class="card">
+                <h2>Fig01 Mslp Thickness Precipitation</h2>
+                <a href="images/fig01_mslp_thickness_precipitation/fig01_20260724_0000_f006.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig01_mslp_thickness_precipitation/fig01_20260724_0000_f006.png" alt="Fig01 Mslp Thickness Precipitation" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig01 Mslp Thickness Precipitation</h2>
+                <a href="images/fig01_mslp_thickness_precipitation/fig01_20260724_0600_f012.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig01_mslp_thickness_precipitation/fig01_20260724_0600_f012.png" alt="Fig01 Mslp Thickness Precipitation" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig01 Mslp Thickness Precipitation</h2>
+                <a href="images/fig01_mslp_thickness_precipitation/fig01_20260724_1200_f018.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig01_mslp_thickness_precipitation/fig01_20260724_1200_f018.png" alt="Fig01 Mslp Thickness Precipitation" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig01 Mslp Thickness Precipitation</h2>
+                <a href="images/fig01_mslp_thickness_precipitation/fig01_20260724_1800_f024.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig01_mslp_thickness_precipitation/fig01_20260724_1800_f024.png" alt="Fig01 Mslp Thickness Precipitation" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig01 Mslp Thickness Precipitation</h2>
+                <a href="images/fig01_mslp_thickness_precipitation/fig01_20260725_0000_f030.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig01_mslp_thickness_precipitation/fig01_20260725_0000_f030.png" alt="Fig01 Mslp Thickness Precipitation" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig01 Mslp Thickness Precipitation</h2>
+                <a href="images/fig01_mslp_thickness_precipitation/fig01_20260725_0600_f036.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig01_mslp_thickness_precipitation/fig01_20260725_0600_f036.png" alt="Fig01 Mslp Thickness Precipitation" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig01 Mslp Thickness Precipitation</h2>
+                <a href="images/fig01_mslp_thickness_precipitation/fig01_20260725_1200_f042.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig01_mslp_thickness_precipitation/fig01_20260725_1200_f042.png" alt="Fig01 Mslp Thickness Precipitation" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig01 Mslp Thickness Precipitation</h2>
+                <a href="images/fig01_mslp_thickness_precipitation/fig01_20260725_1800_f048.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig01_mslp_thickness_precipitation/fig01_20260725_1800_f048.png" alt="Fig01 Mslp Thickness Precipitation" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig01 Mslp Thickness Precipitation</h2>
+                <a href="images/fig01_mslp_thickness_precipitation/fig01_20260726_0000_f054.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig01_mslp_thickness_precipitation/fig01_20260726_0000_f054.png" alt="Fig01 Mslp Thickness Precipitation" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig01 Mslp Thickness Precipitation</h2>
+                <a href="images/fig01_mslp_thickness_precipitation/fig01_20260726_0600_f060.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig01_mslp_thickness_precipitation/fig01_20260726_0600_f060.png" alt="Fig01 Mslp Thickness Precipitation" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig01 Mslp Thickness Precipitation</h2>
+                <a href="images/fig01_mslp_thickness_precipitation/fig01_20260726_1200_f066.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig01_mslp_thickness_precipitation/fig01_20260726_1200_f066.png" alt="Fig01 Mslp Thickness Precipitation" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig01 Mslp Thickness Precipitation</h2>
+                <a href="images/fig01_mslp_thickness_precipitation/fig01_20260726_1800_f072.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig01_mslp_thickness_precipitation/fig01_20260726_1800_f072.png" alt="Fig01 Mslp Thickness Precipitation" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig02 Total Cloud Cover</h2>
+                <a href="images/fig02_total_cloud_cover/fig02_20260724_0000_f006.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig02_total_cloud_cover/fig02_20260724_0000_f006.png" alt="Fig02 Total Cloud Cover" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig02 Total Cloud Cover</h2>
+                <a href="images/fig02_total_cloud_cover/fig02_20260724_0600_f012.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig02_total_cloud_cover/fig02_20260724_0600_f012.png" alt="Fig02 Total Cloud Cover" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig02 Total Cloud Cover</h2>
+                <a href="images/fig02_total_cloud_cover/fig02_20260724_1200_f018.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig02_total_cloud_cover/fig02_20260724_1200_f018.png" alt="Fig02 Total Cloud Cover" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig02 Total Cloud Cover</h2>
+                <a href="images/fig02_total_cloud_cover/fig02_20260724_1800_f024.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig02_total_cloud_cover/fig02_20260724_1800_f024.png" alt="Fig02 Total Cloud Cover" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig02 Total Cloud Cover</h2>
+                <a href="images/fig02_total_cloud_cover/fig02_20260725_0000_f030.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig02_total_cloud_cover/fig02_20260725_0000_f030.png" alt="Fig02 Total Cloud Cover" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig02 Total Cloud Cover</h2>
+                <a href="images/fig02_total_cloud_cover/fig02_20260725_0600_f036.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig02_total_cloud_cover/fig02_20260725_0600_f036.png" alt="Fig02 Total Cloud Cover" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig02 Total Cloud Cover</h2>
+                <a href="images/fig02_total_cloud_cover/fig02_20260725_1200_f042.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig02_total_cloud_cover/fig02_20260725_1200_f042.png" alt="Fig02 Total Cloud Cover" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig02 Total Cloud Cover</h2>
+                <a href="images/fig02_total_cloud_cover/fig02_20260725_1800_f048.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig02_total_cloud_cover/fig02_20260725_1800_f048.png" alt="Fig02 Total Cloud Cover" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig02 Total Cloud Cover</h2>
+                <a href="images/fig02_total_cloud_cover/fig02_20260726_0000_f054.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig02_total_cloud_cover/fig02_20260726_0000_f054.png" alt="Fig02 Total Cloud Cover" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig02 Total Cloud Cover</h2>
+                <a href="images/fig02_total_cloud_cover/fig02_20260726_0600_f060.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig02_total_cloud_cover/fig02_20260726_0600_f060.png" alt="Fig02 Total Cloud Cover" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig02 Total Cloud Cover</h2>
+                <a href="images/fig02_total_cloud_cover/fig02_20260726_1200_f066.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig02_total_cloud_cover/fig02_20260726_1200_f066.png" alt="Fig02 Total Cloud Cover" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig02 Total Cloud Cover</h2>
+                <a href="images/fig02_total_cloud_cover/fig02_20260726_1800_f072.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig02_total_cloud_cover/fig02_20260726_1800_f072.png" alt="Fig02 Total Cloud Cover" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig03 Geopotential Wind 850</h2>
+                <a href="images/fig03_geopotential_wind_850/fig03_20260724_0000_f006.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig03_geopotential_wind_850/fig03_20260724_0000_f006.png" alt="Fig03 Geopotential Wind 850" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig03 Geopotential Wind 850</h2>
+                <a href="images/fig03_geopotential_wind_850/fig03_20260724_0600_f012.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig03_geopotential_wind_850/fig03_20260724_0600_f012.png" alt="Fig03 Geopotential Wind 850" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig03 Geopotential Wind 850</h2>
+                <a href="images/fig03_geopotential_wind_850/fig03_20260724_1200_f018.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig03_geopotential_wind_850/fig03_20260724_1200_f018.png" alt="Fig03 Geopotential Wind 850" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig03 Geopotential Wind 850</h2>
+                <a href="images/fig03_geopotential_wind_850/fig03_20260724_1800_f024.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig03_geopotential_wind_850/fig03_20260724_1800_f024.png" alt="Fig03 Geopotential Wind 850" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig03 Geopotential Wind 850</h2>
+                <a href="images/fig03_geopotential_wind_850/fig03_20260725_0000_f030.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig03_geopotential_wind_850/fig03_20260725_0000_f030.png" alt="Fig03 Geopotential Wind 850" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig03 Geopotential Wind 850</h2>
+                <a href="images/fig03_geopotential_wind_850/fig03_20260725_0600_f036.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig03_geopotential_wind_850/fig03_20260725_0600_f036.png" alt="Fig03 Geopotential Wind 850" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig03 Geopotential Wind 850</h2>
+                <a href="images/fig03_geopotential_wind_850/fig03_20260725_1200_f042.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig03_geopotential_wind_850/fig03_20260725_1200_f042.png" alt="Fig03 Geopotential Wind 850" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig03 Geopotential Wind 850</h2>
+                <a href="images/fig03_geopotential_wind_850/fig03_20260725_1800_f048.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig03_geopotential_wind_850/fig03_20260725_1800_f048.png" alt="Fig03 Geopotential Wind 850" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig03 Geopotential Wind 850</h2>
+                <a href="images/fig03_geopotential_wind_850/fig03_20260726_0000_f054.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig03_geopotential_wind_850/fig03_20260726_0000_f054.png" alt="Fig03 Geopotential Wind 850" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig03 Geopotential Wind 850</h2>
+                <a href="images/fig03_geopotential_wind_850/fig03_20260726_0600_f060.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig03_geopotential_wind_850/fig03_20260726_0600_f060.png" alt="Fig03 Geopotential Wind 850" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig03 Geopotential Wind 850</h2>
+                <a href="images/fig03_geopotential_wind_850/fig03_20260726_1200_f066.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig03_geopotential_wind_850/fig03_20260726_1200_f066.png" alt="Fig03 Geopotential Wind 850" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig03 Geopotential Wind 850</h2>
+                <a href="images/fig03_geopotential_wind_850/fig03_20260726_1800_f072.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig03_geopotential_wind_850/fig03_20260726_1800_f072.png" alt="Fig03 Geopotential Wind 850" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig04 Near Surface Fields</h2>
+                <a href="images/fig04_near_surface_fields/fig04_20260724_0000_f006.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig04_near_surface_fields/fig04_20260724_0000_f006.png" alt="Fig04 Near Surface Fields" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig04 Near Surface Fields</h2>
+                <a href="images/fig04_near_surface_fields/fig04_20260724_0600_f012.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig04_near_surface_fields/fig04_20260724_0600_f012.png" alt="Fig04 Near Surface Fields" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig04 Near Surface Fields</h2>
+                <a href="images/fig04_near_surface_fields/fig04_20260724_1200_f018.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig04_near_surface_fields/fig04_20260724_1200_f018.png" alt="Fig04 Near Surface Fields" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig04 Near Surface Fields</h2>
+                <a href="images/fig04_near_surface_fields/fig04_20260724_1800_f024.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig04_near_surface_fields/fig04_20260724_1800_f024.png" alt="Fig04 Near Surface Fields" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig04 Near Surface Fields</h2>
+                <a href="images/fig04_near_surface_fields/fig04_20260725_0000_f030.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig04_near_surface_fields/fig04_20260725_0000_f030.png" alt="Fig04 Near Surface Fields" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig04 Near Surface Fields</h2>
+                <a href="images/fig04_near_surface_fields/fig04_20260725_0600_f036.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig04_near_surface_fields/fig04_20260725_0600_f036.png" alt="Fig04 Near Surface Fields" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig04 Near Surface Fields</h2>
+                <a href="images/fig04_near_surface_fields/fig04_20260725_1200_f042.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig04_near_surface_fields/fig04_20260725_1200_f042.png" alt="Fig04 Near Surface Fields" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig04 Near Surface Fields</h2>
+                <a href="images/fig04_near_surface_fields/fig04_20260725_1800_f048.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig04_near_surface_fields/fig04_20260725_1800_f048.png" alt="Fig04 Near Surface Fields" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig04 Near Surface Fields</h2>
+                <a href="images/fig04_near_surface_fields/fig04_20260726_0000_f054.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig04_near_surface_fields/fig04_20260726_0000_f054.png" alt="Fig04 Near Surface Fields" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig04 Near Surface Fields</h2>
+                <a href="images/fig04_near_surface_fields/fig04_20260726_0600_f060.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig04_near_surface_fields/fig04_20260726_0600_f060.png" alt="Fig04 Near Surface Fields" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig04 Near Surface Fields</h2>
+                <a href="images/fig04_near_surface_fields/fig04_20260726_1200_f066.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig04_near_surface_fields/fig04_20260726_1200_f066.png" alt="Fig04 Near Surface Fields" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig04 Near Surface Fields</h2>
+                <a href="images/fig04_near_surface_fields/fig04_20260726_1800_f072.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig04_near_surface_fields/fig04_20260726_1800_f072.png" alt="Fig04 Near Surface Fields" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig05 Thetae Geopotential Advection</h2>
+                <a href="images/fig05_thetae_geopotential_advection/fig05_20260724_0000_f006.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig05_thetae_geopotential_advection/fig05_20260724_0000_f006.png" alt="Fig05 Thetae Geopotential Advection" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig05 Thetae Geopotential Advection</h2>
+                <a href="images/fig05_thetae_geopotential_advection/fig05_20260724_0600_f012.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig05_thetae_geopotential_advection/fig05_20260724_0600_f012.png" alt="Fig05 Thetae Geopotential Advection" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig05 Thetae Geopotential Advection</h2>
+                <a href="images/fig05_thetae_geopotential_advection/fig05_20260724_1200_f018.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig05_thetae_geopotential_advection/fig05_20260724_1200_f018.png" alt="Fig05 Thetae Geopotential Advection" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig05 Thetae Geopotential Advection</h2>
+                <a href="images/fig05_thetae_geopotential_advection/fig05_20260724_1800_f024.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig05_thetae_geopotential_advection/fig05_20260724_1800_f024.png" alt="Fig05 Thetae Geopotential Advection" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig05 Thetae Geopotential Advection</h2>
+                <a href="images/fig05_thetae_geopotential_advection/fig05_20260725_0000_f030.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig05_thetae_geopotential_advection/fig05_20260725_0000_f030.png" alt="Fig05 Thetae Geopotential Advection" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig05 Thetae Geopotential Advection</h2>
+                <a href="images/fig05_thetae_geopotential_advection/fig05_20260725_0600_f036.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig05_thetae_geopotential_advection/fig05_20260725_0600_f036.png" alt="Fig05 Thetae Geopotential Advection" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig05 Thetae Geopotential Advection</h2>
+                <a href="images/fig05_thetae_geopotential_advection/fig05_20260725_1200_f042.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig05_thetae_geopotential_advection/fig05_20260725_1200_f042.png" alt="Fig05 Thetae Geopotential Advection" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig05 Thetae Geopotential Advection</h2>
+                <a href="images/fig05_thetae_geopotential_advection/fig05_20260725_1800_f048.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig05_thetae_geopotential_advection/fig05_20260725_1800_f048.png" alt="Fig05 Thetae Geopotential Advection" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig05 Thetae Geopotential Advection</h2>
+                <a href="images/fig05_thetae_geopotential_advection/fig05_20260726_0000_f054.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig05_thetae_geopotential_advection/fig05_20260726_0000_f054.png" alt="Fig05 Thetae Geopotential Advection" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig05 Thetae Geopotential Advection</h2>
+                <a href="images/fig05_thetae_geopotential_advection/fig05_20260726_0600_f060.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig05_thetae_geopotential_advection/fig05_20260726_0600_f060.png" alt="Fig05 Thetae Geopotential Advection" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig05 Thetae Geopotential Advection</h2>
+                <a href="images/fig05_thetae_geopotential_advection/fig05_20260726_1200_f066.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig05_thetae_geopotential_advection/fig05_20260726_1200_f066.png" alt="Fig05 Thetae Geopotential Advection" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig05 Thetae Geopotential Advection</h2>
+                <a href="images/fig05_thetae_geopotential_advection/fig05_20260726_1800_f072.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig05_thetae_geopotential_advection/fig05_20260726_1800_f072.png" alt="Fig05 Thetae Geopotential Advection" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig06 Mucape Cin Mslp</h2>
+                <a href="images/fig06_mucape_cin_mslp/fig06_20260724_0000_f006.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig06_mucape_cin_mslp/fig06_20260724_0000_f006.png" alt="Fig06 Mucape Cin Mslp" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig06 Mucape Cin Mslp</h2>
+                <a href="images/fig06_mucape_cin_mslp/fig06_20260724_0600_f012.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig06_mucape_cin_mslp/fig06_20260724_0600_f012.png" alt="Fig06 Mucape Cin Mslp" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig06 Mucape Cin Mslp</h2>
+                <a href="images/fig06_mucape_cin_mslp/fig06_20260724_1200_f018.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig06_mucape_cin_mslp/fig06_20260724_1200_f018.png" alt="Fig06 Mucape Cin Mslp" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig06 Mucape Cin Mslp</h2>
+                <a href="images/fig06_mucape_cin_mslp/fig06_20260724_1800_f024.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig06_mucape_cin_mslp/fig06_20260724_1800_f024.png" alt="Fig06 Mucape Cin Mslp" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig06 Mucape Cin Mslp</h2>
+                <a href="images/fig06_mucape_cin_mslp/fig06_20260725_0000_f030.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig06_mucape_cin_mslp/fig06_20260725_0000_f030.png" alt="Fig06 Mucape Cin Mslp" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig06 Mucape Cin Mslp</h2>
+                <a href="images/fig06_mucape_cin_mslp/fig06_20260725_0600_f036.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig06_mucape_cin_mslp/fig06_20260725_0600_f036.png" alt="Fig06 Mucape Cin Mslp" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig06 Mucape Cin Mslp</h2>
+                <a href="images/fig06_mucape_cin_mslp/fig06_20260725_1200_f042.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig06_mucape_cin_mslp/fig06_20260725_1200_f042.png" alt="Fig06 Mucape Cin Mslp" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig06 Mucape Cin Mslp</h2>
+                <a href="images/fig06_mucape_cin_mslp/fig06_20260725_1800_f048.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig06_mucape_cin_mslp/fig06_20260725_1800_f048.png" alt="Fig06 Mucape Cin Mslp" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig06 Mucape Cin Mslp</h2>
+                <a href="images/fig06_mucape_cin_mslp/fig06_20260726_0000_f054.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig06_mucape_cin_mslp/fig06_20260726_0000_f054.png" alt="Fig06 Mucape Cin Mslp" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig06 Mucape Cin Mslp</h2>
+                <a href="images/fig06_mucape_cin_mslp/fig06_20260726_0600_f060.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig06_mucape_cin_mslp/fig06_20260726_0600_f060.png" alt="Fig06 Mucape Cin Mslp" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig06 Mucape Cin Mslp</h2>
+                <a href="images/fig06_mucape_cin_mslp/fig06_20260726_1200_f066.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig06_mucape_cin_mslp/fig06_20260726_1200_f066.png" alt="Fig06 Mucape Cin Mslp" loading="lazy">
+                </a>
+            </article>
+            
+            <article class="card">
+                <h2>Fig06 Mucape Cin Mslp</h2>
+                <a href="images/fig06_mucape_cin_mslp/fig06_20260726_1800_f072.png" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fig06_mucape_cin_mslp/fig06_20260726_1800_f072.png" alt="Fig06 Mucape Cin Mslp" loading="lazy">
+                </a>
+            </article>
+            
 </main>
-<footer>Automatically generated synoptic products</footer>
+
+<footer>
+    Automatically generated synoptic products based on ECMWF IFS forecasts.
+</footer>
 </body>
 </html>
